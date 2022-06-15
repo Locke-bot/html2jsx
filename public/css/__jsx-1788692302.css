@@ -1,0 +1,151 @@
+li.jsx-1788692302 {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    margin: 0 15px 20px 0;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+li.jsx-1788692302:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+li.jsx-1788692302 a.jsx-1788692302:first-child {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--front-strongest);
+}
+
+li.jsx-1788692302 a.jsx-1788692302:hover {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #08bd81;
+}
+
+.nav-item.jsx-1788692302 {
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 9px 15px 8px;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #009E68;
+    background: var(--brand-light);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 80px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 25px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.nav-item.jsx-1788692302:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px var(--back-strongest), 0 0 0 5px var(--brand-medium);
+}
+
+.nav-item.jsx-1788692302:hover {
+    background: #DDF7EE;
+}
+
+li.active.jsx-1788692302 .nav-item.jsx-1788692302 {
+    border-bottom: 2px solid #08C988;
+}
+
+.nav-item.jsx-1788692302 .icon.jsx-1788692302 {
+    width: 25px;
+    height: 25px;
+}
+
+.nav-item.image.jsx-1788692302 {
+    color: #9852F1;
+    background: #FAF6FE;
+}
+
+.nav-item.image.jsx-1788692302:hover {
+    background: #f5edfd;
+}
+
+li.active.jsx-1788692302 .nav-item.image.jsx-1788692302 {
+    border-bottom: 2px solid #9852F1;
+}
+
+.nav-item.pdf.jsx-1788692302 {
+    color: #FF3B30;
+    background: #FFF5F5;
+}
+
+.nav-item.pdf.jsx-1788692302:hover {
+    background: #ffebeb;
+}
+
+li.active.jsx-1788692302 .nav-item.pdf.jsx-1788692302 {
+    border-bottom: 2px solid #FF3B30;
+}
+
+.nav-item.folder.jsx-1788692302 {
+    color: #FF8C02;
+    background: #FFF9F2;
+}
+
+.nav-item.folder.jsx-1788692302:hover {
+    background: #fff4e8;
+}
+
+.nav-item.excel.jsx-1788692302 {
+    color: #5262F1;
+    background: #F6F7FE;
+}
+
+.nav-item.excel.jsx-1788692302:hover {
+    background: #edeffd;
+}
+
+li.active.jsx-1788692302 .nav-item.excel.jsx-1788692302 {
+    border-bottom: 2px solid #5262F1;
+}
+
+.icon.jsx-1788692302 {
+    margin-right: 10px;
+}
+
+@media (max-width:1120px) {
+    li.active.jsx-1788692302 {
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .nav-item.jsx-1788692302 {
+        min-width: 140px;
+    }
+}
+
+@media (max-width:590px) {
+    li.jsx-1788692302 {
+        width: 100%;
+    }
+
+    .nav-item.jsx-1788692302 {
+        width: 100%;
+    }
+}

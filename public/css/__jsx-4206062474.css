@@ -1,0 +1,38 @@
+.diff-input-twoBox.jsx-4206062474, .diff-input-oneBox.jsx-4206062474 {
+    width: 50%;
+    position: relative;
+}
+
+.diff-input-twoBox.jsx-4206062474:first-child {
+    padding-left: 10px;
+}
+
+.diff-input-twoBox.jsx-4206062474:last-child {
+    padding-right: 10px;
+}
+
+.diff-input-text-twoBox.jsx-4206062474 {
+    font-size: 14px;
+    border: 1px solid var(--front-default);
+    border-top: 0;
+}
+
+.diff-input-oneBox.jsx-4206062474:last-child .diff-input-text-oneBox.jsx-4206062474 {
+    border-left: 1px solid var(--border-default);
+}
+
+.diff-input-text-oneBox.jsx-4206062474 {
+    font-size: 14px;
+}
+
+.diff-input-text-oneBox.jsx-4206062474 textarea.jsx-4206062474, .diff-input-text-twoBox.jsx-4206062474 textarea.jsx-4206062474 {
+    width: 100%;
+    height: 300px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    ;
+    resize: none;
+}
+
+textarea.jsx-4206062474 {
+    border: 0;
+}

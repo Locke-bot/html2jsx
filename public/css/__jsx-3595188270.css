@@ -1,0 +1,13 @@
+.img-container.jsx-3595188270 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+img.jsx-3595188270 {
+    max-width: 100%;
+    display: inline-block;
+    margin: 0;
+    -webkit-filter: brightness(var(--images-brightness));
+    filter: brightness(var(--images-brightness));
+}

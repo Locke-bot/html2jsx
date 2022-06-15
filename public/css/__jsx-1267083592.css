@@ -1,0 +1,143 @@
+.diff-checker-container.jsx-1267083592 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.alerts-container.jsx-1267083592 {
+    padding: 0 20px;
+}
+
+.diff-checker-page.jsx-1267083592 {
+    width: 100%;
+}
+
+.diff-checker.jsx-1267083592 {
+    margin: 0 20px 40px 20px;
+    border-radius: 4px;
+    background: var(--back-stronger);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.diff-checker.live.jsx-1267083592 {
+    height: 100vh;
+}
+
+.diff-checker-editor.jsx-1267083592 {
+    text-align: left;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background: var(--back-strongest);
+    border-radius: 4px;
+    box-shadow: 0px 5px 30px rgba(44, 54, 59, 0.1);
+    ;
+}
+
+form[name='diff-form'].jsx-1267083592 {
+    position: relative;
+    overflow: initial;
+}
+
+.diff-inputs.jsx-1267083592 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.diff-inputs-twoBox.jsx-1267083592 {
+    gap: 10px;
+}
+
+.diff-inputs-oneBox.jsx-1267083592 {
+    padding-top: 20px;
+}
+
+.editor-tracker.jsx-1267083592 {
+    position: absolute;
+    margin-top: calc(-1 * (60px + 70px));
+}
+
+.diff-output-container.jsx-1267083592 {
+    background: var(--back-strongest);
+    text-align: center;
+}
+
+.expiry.jsx-1267083592 {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    display: block;
+    border: 1px solid #cccccc;
+}
+
+.ads.jsx-1267083592 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 1em;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.find-difference-button-container.jsx-1267083592 {
+    padding-bottom: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 6;
+}
+
+.loader-container.jsx-1267083592 {
+    margin: 0 10px;
+}
+
+.ad-container.jsx-1267083592 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .ad-container.jsx-1267083592:last-child {
+        display: none;
+    }
+}
+
+@media (max-width:940px) {
+    .diff-checker-editor.jsx-1267083592 {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:940px) {
+    .electron .diff-checker.jsx-1267083592 {
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

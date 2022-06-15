@@ -1,0 +1,28 @@
+.web.jsx-3573554865 .content.jsx-3573554865 {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0 16px;
+    padding-top: 24px;
+    padding-bottom: 70px;
+}
+
+.content-container.jsx-3573554865 {
+    width: 100%;
+    min-height: calc(100vh - 64px);
+    position: relative;
+}
+
+.main.jsx-3573554865 {
+    min-height: 100vh;
+    position: relative;
+}
+
+.main.electron.jsx-3573554865 {
+    min-height: initial;
+}
+
+.electron.jsx-3573554865 .app.jsx-3573554865 {
+    margin-top: 0;
+    background-color: var(--back-strongest);
+    min-height: 100vh;
+}

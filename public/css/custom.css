@@ -1,0 +1,91 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+
+.btn-green{
+    background-color: #08bd81 !important;
+    border-color: #08bd81 !important;
+}
+
+.btn-green:hover{
+    background-color: #08bd81 !important;
+    border-color: #08bd81 !important;
+}
+
+.small-header{
+    font-weight: 600;
+    font-size: 1.0625rem;
+    padding-top: 0;
+}
+
+.font-small{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.main-textarea{
+    width: 100%;
+    height: 300px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    resize: none;
+}
+
+form textarea{
+    font-size: 0.8125rem;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border: 1px solid #C4CFD4;
+    border-radius: 4px;
+}
+
+.two-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.file-input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-label{
+    font-size: 0.8125rem;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 0.2rem 1.6rem 0.3rem 0.6rem;
+    border-radius: 4px;
+    display: inline-block;
+    -webkit-transition: .3s;
+    transition: .3s;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
+    position: relative;    
+}
+
+.file-label:hover{
+    background: #EAEEF0;
+    cursor: pointer;
+}
+
+.main-form{
+    text-align: center;
+    margin-top: 30px;
+}
+
+a.btn{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
